@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/h"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:singleLine="false"
+            android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:singleLine="false"
+            android:textSize="10dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Order ngay"
+        android:textSize="12dp"
+        android:backgroundTint="#fff"
+        android:textColor="#FF5722"/>
+
+
+
+
+</LinearLayout>
